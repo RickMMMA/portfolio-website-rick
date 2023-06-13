@@ -1,0 +1,136 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+}
+
+body * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.RICK-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.RICK-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.RICK-justify-start {
+  justify-content: flex-start;
+}
+
+.RICK-justify-end {
+  justify-content: flex-end;
+}
+
+.RICK-justify-center {
+  justify-content: center;
+}
+
+.RICK-justify-between {
+  justify-content: space-between;
+}
+
+.RICK-justify-around {
+  justify-content: space-around;
+}
+
+.RICK-justify-evenly {
+  justify-content: space-evenly;
+}
+
+.RICK-items-start {
+  align-items: flex-start;
+}
+
+.RICK-items-end {
+  align-items: flex-end;
+}
+
+.RICK-items-center {
+  align-items: center;
+}
+
+.RICK-items-baseline {
+  align-items: baseline;
+}
+
+.RICK-items-stretch {
+  align-items: stretch;
+}
+
+.RICK-self-start {
+  align-self: flex-start;
+}
+
+.RICK-self-end {
+  align-self: flex-end;
+}
+
+.RICK-self-center {
+  align-self: center;
+}
+
+.RICK-self-baseline {
+  align-self: baseline;
+}
+
+.RICK-self-stretch {
+  align-self: stretch;
+}
+
+.RICK-flex-1 {
+  flex: 1 1 0%;
+}
+
+.RICK-flex-auto {
+  flex: 1 1 auto;
+}
+
+.RICK-grow {
+  flex-grow: 1;
+}
+
+.RICK-grow-0 {
+  flex-grow: 0;
+}
+
+.RICK-shrink {
+  flex-shrink: 1;
+}
+
+.RICK-shrink-0 {
+  flex-shrink: 0;
+}
+
+.RICK-relative {
+  position: relative;
+}
+
+.form-row label {
+  display:block;
+  margin-bottom:5px;
+}
+
+.form-row input{
+  width:75%;
+  padding:5px;
+  font-family: ITC Avant Garde Gothic Std;
+  font-size: 16px;
+}
+
+.form-row{
+  margin-bottom: 20px;
+}
